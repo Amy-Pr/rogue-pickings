@@ -68,15 +68,16 @@ header {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 38px 0;
 }
 
 header h1 { 
     margin: 0;
     width: 100%;
-    padding-top: 38px;
-    padding-bottom: 20px;
     border-bottom: 3px solid #77a466;
-    text-align: center;    
+    text-align: center;  
+    padding-bottom: 20px;  
+    
 }
 
 header h1 span {
@@ -84,10 +85,6 @@ header h1 span {
 }
 
 /**Navigation**/
-
-header nav {
-    padding-top: 40px;
-}
 
 header nav ul {
     margin: 0;
@@ -97,7 +94,7 @@ header nav ul {
 header nav ul li {
     list-style: none;
     font-size: .875em;
-    padding-bottom: 40px;
+    padding-top: 40px;
     text-align: center;
     
 }
@@ -236,17 +233,15 @@ footer span {
     header {
         justify-content: space-between;
         flex-flow: initial;
+
+        
     }
 
     header h1 { 
-        padding: 38px 0; 
         border-bottom: none;
         text-align: left;
         width: 50%;
-    }
-
-    header nav {
-        padding: 46px 0;
+        padding: 0;
     }
 
     header nav ul li {
